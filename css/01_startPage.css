@@ -1,0 +1,61 @@
+@import url('main.css');
+
+/* navbar */
+#navbar {
+  background-color: #000000;
+  width: 100vw;
+  height: 100px;
+}
+
+.navbar-menu {
+  width: 62%;
+  height: 100%;
+  margin: auto;
+}
+
+.left-navbar {
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left-navbar > img {
+  height: 80%;
+}
+
+.right-navbar {
+  float: right;
+  height: 100%;
+  width: 55%;
+}
+
+.right-navbar,
+.navbar__list {
+  display: flex;
+}
+
+.right-navbar {
+  align-items: center;
+}
+
+.navbar__list > li {
+  padding: 0 20px;
+  position: relative;
+  left: 130px;
+}
+
+.navbar__list > li > a,
+.navbar__list > li {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Advertisement */
+#Advertisement {
+  height: 596px;
+  background-color: rgb(253, 218, 224);
+}

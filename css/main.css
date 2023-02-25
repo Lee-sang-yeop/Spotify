@@ -1,0 +1,21 @@
+:root {
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
