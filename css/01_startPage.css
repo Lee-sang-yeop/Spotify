@@ -26,6 +26,7 @@
 .head-text h1 {
   font-size: 40px;
   color: var(--color-black);
+  font-weight: bold;
 }
 
 .center-text {
