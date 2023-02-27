@@ -1,6 +1,7 @@
 :root {
-  --color-white: #fff;
-  --color-purple: #a63992;
+  --color-white: #fff !important;
+  --color-purple: #a63992 !important;
+  --color-black: #000 !important;
 }
 
 * {

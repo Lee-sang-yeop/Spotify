@@ -4,7 +4,7 @@
 #navbar {
   background-color: #000000;
   width: 100vw;
-  height: 100px;
+  height: 80px;
 }
 
 .navbar-menu {
@@ -40,6 +40,10 @@
   align-items: center;
 }
 
+.navbar__list {
+  margin-left: -50px;
+}
+
 .navbar__list > li {
   padding: 0 20px;
   position: relative;
@@ -49,15 +53,15 @@
 .navbar__list > li > a,
 .navbar__list > li {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 700;
   cursor: pointer;
 }
 
 /* Advertisement */
 #Advertisement {
-  height: 596px;
-  background-color: rgb(253, 218, 224);
+  height: 479px;
+  background-color: rgb(255, 205, 210);
 }
 
 .adv-container {
@@ -74,28 +78,28 @@
 
 .head-text {
   margin-top: 70px;
-  padding-bottom: 45px;
+  padding-bottom: 25px;
 }
 
 .head-text h1 {
-  font-size: 3rem;
-  color: var(--color-purple);
+  font-size: 40px;
+  color: var(--color-black);
 }
 
 .center-text {
-  font-size: 1.8rem;
-  color: var(--color-purple);
-  padding-bottom: 45px;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-black);
+  padding-bottom: 35px;
 }
 
 .btn-start,
 .btn-price {
-  padding: 20px;
-  border: none;
-  border-radius: 35px;
-  width: 160px;
-  font-size: 1.1rem;
-  font-weight: bold;
+  border-radius: 500px;
+  font-size: inherit;
+  padding-block: 14px;
+  padding-inline: 32px;
+  font-weight: 900;
 }
 
 .btn-group {
@@ -104,11 +108,13 @@
 
 .btn-start {
   color: var(--color-white);
-  background-color: var(--color-purple);
+  background-color: var(--color-black);
+  border: none;
 }
 
 .btn-price {
-  background-color: #d2f4d7;
+  background-color: transparent;
+  border: 1px solid black;
 }
 
 .btn-start:hover,
@@ -126,8 +132,8 @@
 }
 
 .last-text {
-  color: var(--color-purple);
-  font-size: 13.5px;
+  color: var(--color-black);
+  font-size: 0.6875rem;
 }
 
 .right__adv-container {
@@ -137,7 +143,7 @@
 }
 
 .right__adv-container > img {
-  width: 500px;
-  height: 380px;
-  margin-top: 100px;
+  width: 400px;
+  height: 320px;
+  margin-top: 80px;
 }
