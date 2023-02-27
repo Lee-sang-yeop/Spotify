@@ -1,63 +1,5 @@
 @import url('main.css');
 
-/* navbar */
-#navbar {
-  background-color: #000000;
-  width: 100vw;
-  height: 80px;
-}
-
-.navbar-menu {
-  width: 62%;
-  height: 100%;
-  margin: auto;
-}
-
-.left-navbar {
-  float: left;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.left-navbar > img {
-  height: 80%;
-}
-
-.right-navbar {
-  float: right;
-  height: 100%;
-  width: 55%;
-}
-
-.right-navbar,
-.navbar__list {
-  display: flex;
-}
-
-.right-navbar {
-  align-items: center;
-}
-
-.navbar__list {
-  margin-left: -50px;
-}
-
-.navbar__list > li {
-  padding: 0 20px;
-  position: relative;
-  left: 130px;
-}
-
-.navbar__list > li > a,
-.navbar__list > li {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
 /* Advertisement */
 #Advertisement {
   height: 479px;
@@ -103,7 +45,7 @@
 }
 
 .btn-group {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .btn-start {
@@ -123,14 +65,6 @@
   transform: scale(1.05);
 }
 
-.btn-start:hover {
-  background-color: #8f317e;
-}
-
-.btn-price:hover {
-  background-color: #dffbe3;
-}
-
 .last-text {
   color: var(--color-black);
   font-size: 0.6875rem;
@@ -146,4 +80,200 @@
   width: 400px;
   height: 320px;
   margin-top: 80px;
+}
+
+/* Download */
+#Download {
+  background-color: rgb(248, 248, 248);
+  height: 480px;
+  text-align: center;
+  padding: 30px;
+}
+
+.Download-container {
+  width: 63%;
+  margin: auto;
+}
+
+.center-text2 > h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.btn-group2 {
+  padding: 40px;
+}
+
+/* useReason */
+#useReason {
+  height: 571.297px;
+  text-align: center;
+}
+
+.icon-container {
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container img {
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 142px;
+  padding: 20px;
+}
+
+.icon {
+  padding: 20px;
+}
+
+.icon h3 {
+  padding: 15px 0;
+  font-size: 1.17em;
+}
+
+.icon h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* selectPrice */
+#selectPrice {
+  height: 874px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.selectPrice-container {
+  width: 70%;
+  margin: auto;
+}
+
+.head-text2 {
+  padding: 50px;
+}
+
+.head-text2 > h1 {
+  font-size: 40px !important;
+}
+
+.head-text2 > h2 {
+  font-size: 16px !important;
+}
+
+.priceBox-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.priceBox {
+  text-align: left;
+  padding: 12px !important;
+  background-color: var(--color-white);
+  width: 360px;
+  height: 550px;
+  border-radius: 12px !important;
+  box-shadow: 0 0 5px 1px rgb(163, 161, 161);
+}
+
+.iconBox {
+  margin-top: -20px;
+  line-height: 1;
+}
+
+.priceBox__head-text {
+  padding: 15px 0 !important;
+}
+
+.priceBox__head-text > h2 {
+  line-height: 2 !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+
+.priceBox__head-text > span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 119, 208);
+  padding: 6px !important;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+}
+
+.priceBox__head-text > h4 {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.priceBox__btn {
+  text-align: center;
+}
+
+.priceBox__btn > button {
+  font-weight: bold;
+}
+
+.priceBox__btn-start {
+  padding-top: 95px;
+}
+
+.priceBox__btn-start2 {
+  padding-top: 45px;
+}
+
+.priceBox__btn-start3 {
+  padding-top: 30px;
+}
+
+.priceBox__btn-start > button,
+.priceBox__btn-start2 > button,
+.priceBox__btn-start3 > button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 300px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 250px;
+  font-size: 14px;
+  line-height: 0;
+}
+
+.priceBox__last-text {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+/* question */
+#question {
+  text-align: center;
+  background-color: #f8f8f8;
+  height: 715.156px;
+}
+
+.question > h3 {
+  font-size: 24px;
+}
+
+.accordion {
+  width: 60%;
+  margin: auto;
+  --bs-accordion-btn-focus-box-shadow: white !important;
+}
+
+.accordion-button {
+  height: 70px !important;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--color-black) !important;
+  background-color: #f8f8f8 !important;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  outline: none !important;
+  border-color: white !important;
 }
