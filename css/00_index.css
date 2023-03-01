@@ -1,0 +1,36 @@
+@import url('main.css');
+
+/* section */
+#main-section {
+  background-color: rgb(255, 205, 210);
+  height: 554px;
+  text-align: center;
+  padding: 70px;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+
+.head-text > h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.center-text > h3 {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.btn-group2 {
+  padding: 20px;
+}
+
+.last-text {
+  padding-top: 30px;
+}
+
+.last-text > span {
+  font-size: 12px;
+}

@@ -121,8 +121,8 @@
 
 .icon-container img {
   background-repeat: no-repeat;
-  width: 142px;
-  height: 142px;
+  width: 180px;
+  height: 180px;
   padding: 20px;
 }
 
@@ -133,6 +133,7 @@
 .icon h3 {
   padding: 15px 0;
   font-size: 1.17em;
+  font-weight: 900;
 }
 
 .icon h4 {
@@ -251,6 +252,10 @@
   text-align: center;
   background-color: #f8f8f8;
   height: 715.156px;
+}
+
+.question > h1 {
+  font-weight: bold;
 }
 
 .question > h3 {
