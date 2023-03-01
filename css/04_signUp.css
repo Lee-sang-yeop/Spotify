@@ -1,10 +1,16 @@
 @import url('main.css');
 
 .main-container {
-  background-color: beige;
   text-align: center;
   width: 35%;
   margin: auto;
+  padding: 30px;
+}
+
+.header-text > h1 {
+  padding: 30px;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .signUp-btn {
@@ -45,7 +51,7 @@
   margin: 0px auto 1em;
   color: rgb(127, 127, 127);
   text-align: center;
-  width: 57%;
+  width: 64%;
 }
 
 .divider::before,
@@ -56,4 +62,35 @@
   position: relative;
   top: 0.8em;
   width: 42%;
+}
+
+.header-text2 > h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.input-container {
+  text-align: left;
+  background-color: beige;
+  width: 75%;
+  margin: auto;
+}
+
+.input-container h7 {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.input-container input {
+  width: 450px;
+  height: 48px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-inline: 14px;
+}
+
+.inputBox {
+  padding-top: 20px;
 }

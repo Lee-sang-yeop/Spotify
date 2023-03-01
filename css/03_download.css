@@ -34,18 +34,53 @@
   top: -6%;
   width: 33px;
 }
+
+.slide_1 {
+  animation: change 0.2s ease forwards;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+@keyframes change {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.opa_1 {
+  animation: change2 1.5s ease forwards;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+@keyframes change2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #circleImage_2 {
   position: absolute;
   right: 220px;
   top: -6%;
   width: 33px;
 }
+
 #checkImage {
   position: absolute;
   right: 231px;
   top: -2%;
   width: 11px;
 }
+
 #downloadButton {
   width: 128px;
   height: 50px;
@@ -53,27 +88,6 @@
   border-radius: 41px;
   background: white;
   border: none;
-}
-
-#circleImage_1{
-  animation-duration: 0.6s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-name: lbWRkT;
-}
-#circleImage_2{
-  animation-duration: 0.3s;
-    animation-timing-function: ease;
-    animation-delay: 0.9s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-name: dWurqy;
 }
 
 /* section 2 */
@@ -87,7 +101,7 @@
   left: 37%;
 }
 
-#mobileLinkButton{
+#mobileLinkButton {
   position: absolute;
   left: 100px;
   top: 71%;
@@ -130,7 +144,7 @@
   color: #3ca661;
 }
 
-#underLine{
+#underLine {
   text-decoration: underline;
   color: #3ca661;
 }
