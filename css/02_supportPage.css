@@ -1,1 +1,80 @@
 @import url('main.css');
+
+.supportMain {
+  background: linear-gradient(173deg, #3ca661, black 25%);
+  /* background-color: black; */
+  height: 900px;
+  position: relative;
+}
+.loginLink {
+  font-weight: 600;
+}
+.supportText {
+  font-weight: 900;
+}
+.sText1 {
+  font-size: 1.2rem;
+  color: rgb(113, 113, 113);
+  padding: 50px 20px 10px;
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+.sText2 {
+  font-size: 5rem;
+  color: white;
+  padding: 5px 50px 60px;
+  width: 700px;
+  margin: 0 auto;
+}
+.sText3 {
+  color: rgb(113, 113, 113);
+  font-size: 1.563em;
+  padding: 50px;
+  width: 700px;
+  margin: 0 auto;
+}
+.loginLink {
+  color: white;
+  text-decoration: underline;
+}
+
+.searchSupport {
+  width: 730px;
+  height: 60px;
+  margin: 0 auto;
+  position: absolute;
+  left: 25%;
+}
+.supportBox1 {
+  position: absolute;
+  margin: 0 auto;
+  right: 24%;
+  top: 58%;
+}
+.supportBox2 {
+  position: absolute;
+  margin: 0 auto;
+  right: 24%;
+  top: 71%;
+}
+.sBox {
+  width: 235px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 82px;
+  padding-bottom: 45px;
+  cursor: pointer;
+  background-color: #25c45c;
+}
+.supportBottom {
+  height: 500px;
+  background-color: rgb(47, 46, 46);
+  color: white;
+}
+.bText {
+  margin: 40px;
+}
