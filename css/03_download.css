@@ -9,7 +9,7 @@
 #download_content {
   position: absolute;
   top: 28%;
-  left: 37%;
+  left: 40%;
 }
 
 .maxWidthContainer {
@@ -30,19 +30,19 @@
 }
 #circleImage_1 {
   position: absolute;
-  right: 228px;
+  right: 220px;
   top: -6%;
   width: 33px;
 }
 #circleImage_2 {
   position: absolute;
-  right: 228px;
+  right: 220px;
   top: -6%;
   width: 33px;
 }
 #checkImage {
   position: absolute;
-  right: 239px;
+  right: 231px;
   top: -2%;
   width: 11px;
 }
@@ -54,6 +54,28 @@
   background: white;
   border: none;
 }
+
+#circleImage_1{
+  animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: lbWRkT;
+}
+#circleImage_2{
+  animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: dWurqy;
+}
+
 /* section 2 */
 #spotify_mobile_section {
   height: 308px;
@@ -62,7 +84,13 @@
 #mobile_content {
   position: absolute;
   top: 26%;
-  left: 33%;
+  left: 37%;
+}
+
+#mobileLinkButton{
+  position: absolute;
+  left: 100px;
+  top: 71%;
 }
 
 #bigText_mobile {
@@ -78,18 +106,18 @@
 }
 #allPlatForms_content {
   position: absolute;
-  top: 26%;
-  left: 33%;
+  top: 13%;
+  left: 32%;
   color: white;
 }
 #bigText_allPlatForms {
   font-size: xx-large;
 }
 #allPlatForms_Image > img {
-  width: 80%;
+  width: 55%;
 }
 #allPlatForms_ul a {
-  color: rgb(30, 215, 96);
+  color: #3ca661;
   text-decoration: underline;
 }
 
@@ -98,6 +126,11 @@
   list-style: circle;
 }
 
-i {
-  color: rgb(30, 215, 96);
+#dot {
+  color: #3ca661;
+}
+
+#underLine{
+  text-decoration: underline;
+  color: #3ca661;
 }

@@ -7,14 +7,6 @@
     <title>Windows 다운로드- Spotify</title>
     <!-- css -->
     <link rel="stylesheet" href="../css/03_download.css" />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
     <!-- bootstrap -->
     <link
@@ -75,7 +67,7 @@
                     </img>
                     <img src="https://www-growth.scdn.co/static/download/green-success-check.svg" id="checkImage">
                 </div>
-                <h1 id="bigText_download"><span style="font-weight: 900;">Spotify</span> 다운로드하기</h1>
+                <h1 id="bigText_download"><b><span style="font-weight: 900;">Spotify</span> 다운로드하기</b></h1>
                 <p id="smallText_download" >디바이스에서 수백만 개의 곡을 감상하세요.</p>
                 <button type="button" id="downloadButton">
                     <div><b>다운로드</b></div>
@@ -88,9 +80,9 @@
       <section id="spotify_mobile_section">
         <div class="maxWidthContainer">
             <div id="mobile_content">
-                <h1 id="bigText_mobile">모바일 및 태블릿에서도 음악을 감상하세요.</h1>
+                <h1 id="bigText_mobile"><b>모바일 및 태블릿에서도 음악을 감상하세요.</b></h1>
                 <p id="smallText_mobile">휴대폰이나 태블릿으로 음악을 듣는 것은 쉽고 즐거우며 무료입니다.</p><br><br>
-                <div>
+                <div id="mobileLinkButton">
                     <img src="https://www-growth.scdn.co/static/badges/svgs/apple/badge-ko.svg" alt="App Store에서 다운로드하기">&nbsp;&nbsp;&nbsp;
                     <img src="https://www-growth.scdn.co/static/badges/svgs/google/badge-ko.svg" alt="Google Play에서 받기" style="margin: -8px; height: 57px;">&nbsp;&nbsp;&nbsp;
                     <img src="https://www-growth.scdn.co/static/badges/microsoft-windows/int.png" alt="Microsoft에서 받기">&nbsp;&nbsp;&nbsp;
@@ -104,8 +96,8 @@
         <div class="maxWidthContainer">
             <div id="allPlatForms_content">
                 <div id="allPlatForms_Image">
-                    <img src="https://www-growth.scdn.co/static/download/all-devices.svg" alt="devices">
-                    <h1 id="bigText_allPlatForms">계정 하나로 어디서든 들으세요.</h2>
+                    <img src="https://www-growth.scdn.co/static/download/all-devices.svg" alt="devices"><br><br>
+                    <h1 id="bigText_allPlatForms"><b>계정 하나로 어디서든 들으세요.</b></h2>
                 </div><br><br>
                 <div id="allPlatForms_ulContent">
                     <ul id="allPlatForms_ul" >
@@ -113,28 +105,28 @@
                             <span>모바일기기</span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i> 컴퓨터</span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span>컴퓨터</span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i> 태블릿</span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span>태블릿</span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> 자동차</a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">자동차</a></span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> PlayStation<sup>®</sup></a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">PlayStation<sup>®</sup></a></span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> Xbox</a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">Xbox</a></span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> TV</a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">TV</a></span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> 스피커</a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">스피커</a></span>
                         </li>
                         <li class="allPlatForms_li">
-                            <span><i class="fa-solid fa-circle-small"></i><a href="#"> 웹 플레이어</a></span>
+                            <span id="dot">&nbsp;&nbsp;•&nbsp;&nbsp;</span><span id="underLine"><a href="#">웹 플레이어</a></span>
                         </li>
 
                     </ul>
@@ -142,6 +134,61 @@
             </div>
         </div>
       </section>
+
+      <!-- footer -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="first-footerBox">
+          <div class="imgBox">
+            <img src="../img/spotify-logo.png" />
+          </div>
+          <div class="list-menu">
+            <ul>
+              <li>회사</li>
+              <li>상세정보</li>
+              <li>채용 정보</li>
+              <li>For the Record</li>
+            </ul>
+          </div>
+          <div class="list-menu">
+            <ul>
+              <li>커뮤니티</li>
+              <li>아티스트</li>
+              <li>개발자</li>
+              <li>투자자</li>
+              <li>공급업체</li>
+            </ul>
+          </div>
+          <div class="list-menu">
+            <ul>
+              <li>유용한 링크</li>
+              <li>지원</li>
+              <li>웹 플레이어</li>
+            </ul>
+          </div>
+          <div class="svgBox">
+            <img src="../img/instagram.svg" />
+            <img src="../img/twitter.svg" />
+            <img src="../img/facebook.svg" />
+          </div>
+        </div>
+        <div class="second-footerBox">
+          <div class="second-footerBox__first-box">
+            <div>법률 정보</div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div>개인정보 보호 센터</div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div>개인정보 처리방침</div>
+          </div>
+          <div class="infoBox">
+            <div class="info">
+              <i class="fa-solid fa-earth-americas">대한민국 (한국어)</i>
+            </div>
+            <div class="info">© 2023 Spotify AB</div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
