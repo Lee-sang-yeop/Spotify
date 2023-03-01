@@ -1,1 +1,138 @@
 @import url('main.css');
+
+.logo-container {
+  text-align: center;
+  padding-top: 14px;
+}
+
+#body-section {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.continue > p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.facebookLogin,
+.appleLogin,
+.googleLogin {
+  width: 450px;
+  height: 48px;
+  margin: auto;
+  padding-top: 5px;
+  border-radius: 250px;
+  margin-bottom: 10px;
+}
+
+.facebookLogin {
+  background-color: #1877f2;
+}
+
+.appleLogin {
+  background-color: #000000e6;
+}
+
+.googleLogin {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.divider {
+  display: table;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin: 0px auto 1em;
+  color: rgb(127, 127, 127);
+  text-align: center;
+  width: 46%;
+}
+
+.divider::before,
+.divider::after {
+  border-top: 1px solid rgb(204, 204, 204);
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.8em;
+  width: 42%;
+}
+
+.divider > b {
+  color: black;
+  font-size: 14px;
+}
+
+.input-container {
+  text-align: left;
+  width: 46.8%;
+  margin: auto;
+}
+
+.inputBox > h7 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#email,
+#password {
+  width: 450px;
+  height: 48px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-inline: 14px;
+}
+
+.forgotPwd {
+  text-align: left;
+  width: 46.8%;
+  margin: auto;
+}
+
+#infoMem {
+  font-size: 14px;
+}
+
+.displayFlex {
+  width: 46.8%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnBox > button {
+  background-color: #1ed760;
+  border-radius: 500px;
+  width: 141.5px;
+  height: 48px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.qn_id > h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.enrollBox {
+  width: 450px;
+  height: 48px;
+  padding-top: 8px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 250px;
+}
+
+.error-msg1,
+.error-msg2 {
+  color: #d31225;
+  font-size: 14px;
+}

@@ -71,7 +71,6 @@
 
 .input-container {
   text-align: left;
-  background-color: beige;
   width: 75%;
   margin: auto;
 }
@@ -93,4 +92,96 @@
 
 .inputBox {
   padding-top: 20px;
+}
+
+.error-msg,
+.error-msg2,
+.error-msg3,
+.error-msg5,
+.error-msg6,
+.error-msg7 {
+  color: #d31225;
+  font-size: 14px;
+}
+
+.error-msg4 {
+  font-size: 14px;
+  color: var(--color-black);
+  padding: 5px 0;
+}
+
+.birth-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.years input {
+  width: 112.5px;
+  height: 48px;
+}
+
+.month > select {
+  width: 202.5px;
+  height: 48px;
+}
+
+.day > input {
+  width: 90px;
+  height: 48px;
+}
+
+.gender,
+.foot-text {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.gender > p {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.gender label {
+  font-size: 0.875rem;
+}
+
+.foot-text {
+  font-size: 0.875rem;
+}
+
+.foot-text label {
+  color: #1db954;
+}
+
+.foot-text label:nth-child(2) {
+  color: black;
+}
+
+.last-text {
+  text-align: center;
+  font-size: 0.6875rem;
+}
+
+.btnBox {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-enroll {
+  background-color: #1fdf64;
+  padding: 12px 48px;
+  border-radius: 250px;
+  border: none;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.qa_login {
+  text-align: center;
+}
+
+.qa_login > span > a > u {
+  color: #1db954;
 }

@@ -72,92 +72,105 @@
             <div class="input-container">
               <div class="inputBox">
                 <h7>이메일이 어떻게 되시나요?</h7>
-                <input id="email" type="text" placeholder="이메일을 입력하세요." />
+                <input id="email" type="text" placeholder="이메일을 입력하세요." required />
                 <div class="error-msg"></div>
               </div>
               <div class="inputBox">
                 <h7>이메일을 확인하세요.</h7>
-                <input type="text" placeholder="이메일을 다시 입력하세요." />
+                <input id="emailCheck" type="text" placeholder="이메일을 다시 입력하세요." required />
+                <div class="error-msg2"></div>
               </div>
               <div class="inputBox">
                 <h7>비밀번호를 만드세요.</h7>
-                <input type="text" placeholder="비밀번호를 만드세요." />
+                <input id="password" type="password" placeholder="비밀번호를 만드세요." required />
+                <div class="error-msg3"></div>
               </div>
               <div class="inputBox">
                 <h7>어떤 사용자 이름을 사용하시겠어요?</h7>
-                <input type="text" placeholder="프로필 이름을 입력하세요." />
+                <input id="nickname" type="text" placeholder="프로필 이름을 입력하세요." required />
+                <div class="error-msg4">프로필에 표시되는 이름입니다.</div>
               </div>
-              <p>프로필에 표시되는 이름입니다.</p>
+              <br />
+              <div>
+                <h7>생년월일이 어떻게 되시나요?</h7>
+              </div>
 
               <div class="birth-date">
-                <div>
-                  <p>생년월일이 어떻게 되시나요?</p>
+                <div class="years">
+                  <h7>연도</h7><br />
+                  <input id="years" type="text" placeholder="YYYY" />
                 </div>
 
-                <div>
-                  <h7>연도</h7>
-                  <input type="text" placeholder="YYYY" />
-                </div>
-
-                <div>
-                  <h7>월</h7>
-                  <select name="" id="">
-                    <option value="">월</option>
-                    <option value="">1월</option>
-                    <option value="">2월</option>
-                    <option value="">3월</option>
-                    <option value="">4월</option>
-                    <option value="">5월</option>
-                    <option value="">6월</option>
-                    <option value="">7월</option>
-                    <option value="">8월</option>
-                    <option value="">9월</option>
-                    <option value="">10월</option>
-                    <option value="">11월</option>
-                    <option value="">12월</option>
+                <div class="month">
+                  <h7>월</h7><br />
+                  <select name="month" id="months" class="month-select">
+                    <option value="0" selected>월</option>
+                    <option value="1">1월</option>
+                    <option value="2">2월</option>
+                    <option value="3">3월</option>
+                    <option value="4">4월</option>
+                    <option value="5">5월</option>
+                    <option value="6">6월</option>
+                    <option value="7">7월</option>
+                    <option value="8">8월</option>
+                    <option value="9">9월</option>
+                    <option value="10">10월</option>
+                    <option value="11">11월</option>
+                    <option value="12">12월</option>
                   </select>
                 </div>
 
-                <div>
-                  <h7>일</h7>
-                  <input type="text" placeholder="DD" />
+                <div class="day">
+                  <h7>일</h7><br />
+                  <input id="day" type="text" placeholder="DD" />
                 </div>
               </div>
+              <div class="error-msg5"></div>
+              <div class="error-msg6"></div>
+              <div class="error-msg7"></div>
+            </div>
 
-              <div>
-                <p>성별이 무엇인가요?</p>
-                <input id="male" type="radio" name="gender" />
-                <label for="male">남자</label>
-                <input id="female" type="radio" name="gender" />
-                <label for="female">여자</label>
-                <input id="non" type="radio" name="gender" />
-                <label for="non">논바이너리</label>
-                <input id="else" type="radio" name="gender" />
-                <label for="else">기타</label>
-                <br />
-                <input id="negative" type="radio" name="gender" />
-                <label for="negative">답변 거부</label>
+            <div class="gender">
+              <p>성별이 무엇인가요?</p>
+              <input id="male" type="radio" name="gender" />
+              <label for="male">남자</label>
+              <input id="female" type="radio" name="gender" />
+              <label for="female">여자</label>
+              <input id="non" type="radio" name="gender" />
+              <label for="non">논바이너리</label>
+              <input id="else" type="radio" name="gender" />
+              <label for="else">기타</label>
+              <br />
+              <input id="negative" type="radio" name="gender" />
+              <label for="negative">답변 거부</label>
+            </div>
+
+            <div class="foot-text">
+              <input id="agree" type="checkbox" />
+              <label for="agree">Spotify 마케팅 메시지 수신 동의(선택사항)</label><br /><br />
+              <input id="data" type="checkbox" />
+              <label for="data"><u>써드 파티 데이터 제공(선택 사항)</u></label
+              ><br /><br />
+              <input id="personal" type="checkbox" />
+              <label for="personal"><u>필수 개인 정보 수집 및 이용</u></label
+              ><br /><br />
+              <input id="rule" type="checkbox" />
+              <label for="rule"><u>Spotify 사용 약관</u></label
+              ><br /><br />
+
+              <div class="last-text">
+                당사가 귀하에 대해 처리 할 데이터에 대한 자세한 정보는 당사 <u>개인정보처리방침</u>을 참조하십시오.
+              </div>
+              <div class="btnBox">
+                <button class="btn-enroll">가입하기</button>
+              </div>
+
+              <div class="qa_login">
+                <span
+                  >계정이 있나요? <a href="#"><u>로그인하세요.</u></a></span
+                >
               </div>
             </div>
-
-            <input type="checkbox" />
-            <label for="">Spotify 마케팅 메시지 수신 동의(선택사항)</label>
-            <input type="checkbox" />
-            <label for=""><u>써드 파티 데이터 제공(선택 사항)</u></label>
-            <input type="checkbox" />
-            <label for=""><u>필수 개인 정보 수집 및 이용</u></label>
-            <input type="checkbox" />
-            <label for=""><u>Spotify 사용 약관</u></label>
-
-            <div class="last-text">
-              당사가 귀하에 대해 처리 할 데이터에 대한 자세한 정보는 당사 <u>개인정보처리방침</u>을 참조하십<br />시오.
-            </div>
-
-            <button>가입하기</button>
-            <br />
-            <span
-              >계정이 있나요? <a href="#"><u>로그인하세요.</u></a></span
-            >
           </div>
         </form>
         <div></div>
