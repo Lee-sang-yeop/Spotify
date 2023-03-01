@@ -16,12 +16,13 @@
   font-size: 1.2rem;
   color: rgb(113, 113, 113);
   padding: 50px 20px 10px;
-  width: 700px;
+  width: 640px;
   height: 50px;
   margin: 0 auto;
 }
 .sText2 {
   font-size: 5rem;
+  font-weight: 700;
   color: white;
   padding: 5px 50px 60px;
   width: 700px;
@@ -44,7 +45,7 @@
   height: 60px;
   margin: 0 auto;
   position: absolute;
-  left: 25%;
+  left: 30%;
 }
 .supportBox1 {
   position: absolute;
@@ -68,13 +69,53 @@
   padding-right: 82px;
   padding-bottom: 45px;
   cursor: pointer;
-  background-color: #25c45c;
+  background-color: black;
+  border:3px solid #3ca661;
+  color:aliceblue;
+  
 }
 .supportBottom {
-  height: 500px;
-  background-color: rgb(47, 46, 46);
+  height: 550px;
+  background-color: rgb(33, 32, 32);
   color: white;
 }
 .bText {
-  margin: 40px;
+  margin: 50px;
+  font-size:20px;
+}
+.bottomText{
+  position: absolute;
+  margin: 0 auto;
+  right: 50%;
+}
+.bottomText > ul > a{
+  cursor:pointer;
+}
+.bottomText > ul > .click:hover{
+  text-decoration: underline;
+  color: rgb(226, 225, 225);
+}
+.community{
+  height: 400px;
+  background-color: black;
+  color: white;
+}
+.communityText{
+  position: absolute;
+  margin: 0 auto;
+  right: 25%;
+  margin-top:150px;
+  font-size:20px;
+  text-align: center;
+}
+.communityBtn{
+  cursor:pointer;
+  text-decoration: none;
+  color:black;
+  border:3px solid #3ca661;
+  border-radius: 50px;
+  padding:20px;
+  background-color: #3ca661;
+  margin-top:150px;
+  font-size: 15px;
 }
