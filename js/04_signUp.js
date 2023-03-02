@@ -67,6 +67,7 @@ $(function () {
       $('.error-msg4').css('color', '#d31225');
     } else {
       $('.error-msg4').html('프로필에 표시되는 이름입니다.');
+      $('.error-msg4').css('color', 'black');
     }
   });
 });
