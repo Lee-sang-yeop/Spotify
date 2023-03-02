@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 .sText2 {
-  font-size: 5rem;
+  font-size: 4.375rem;
   font-weight: 700;
   color: white;
   padding: 5px 50px 60px;
@@ -116,7 +116,7 @@
   border-radius: 50px;
   padding:25px;
   background-color: #3ca661;
-  font-size: 20px;
+  font-size: 19px;
   width:200px;
   position: absolute;
   margin: 0 auto;
