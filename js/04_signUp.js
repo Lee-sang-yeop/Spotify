@@ -11,7 +11,7 @@ $(function () {
   $('#email').keyup(function () {
     if (!$('#email').val()) {
       //   console.log('이메일 입력하세요.');
-      $('.error-msg').html('이메일을 입력해야 합니다.');
+      $('.error-msg').html('이메일을 입력해야 합니다!.');
       $('#email').css('border', '2px solid red');
       return;
     } else if (!regExp.test($('#email').val())) {
